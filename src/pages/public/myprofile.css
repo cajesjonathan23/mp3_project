@@ -1,0 +1,21 @@
+.make {
+    margin-top: 60px;
+    padding-top: 18px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.footer {
+    background-color: #484a54;
+    color: white; 
+    padding: 30px; 
+    text-align: center;
+    width: 100%; 
+    position: fixed; 
+    bottom: 0;
+  }
+  @media (max-width: 767px) {
+    h4 {
+        padding-top: 10px;
+      font-size: 15px; 
+    }
+  }

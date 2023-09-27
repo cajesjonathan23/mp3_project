@@ -1,0 +1,53 @@
+
+.footer {
+    background-color: #ffffff;
+    color: white;
+    padding: 30px;
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1; 
+  }
+  .table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 769px) {
+    .table-container table {
+      width: 75%;
+    }
+  }
+  
+/* Media query for screens narrower than 769px */
+@media (max-width: 768px) {
+  .table-container table {
+    width: 100%; 
+  }
+
+  /* Optionally, you can add a horizontal scrollbar for smaller screens */
+  .table-container {
+    max-height: none; 
+    overflow-x: scroll; 
+    overflow-y: auto;
+  }
+  
+  /* Ensure that th elements are always visible */
+  .table-container table th {
+    position: sticky;
+    top: 0;
+    background-color: #fff; 
+    z-index: 2;
+  }
+
+  /* Adjust z-index for td elements to appear below th */
+  .table-container table td {
+    margin-top: 70px;
+    z-index: 1;
+  }
+}

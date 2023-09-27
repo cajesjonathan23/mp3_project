@@ -1,0 +1,35 @@
+.sidebar {
+  transform: translateX(-250px);
+  transition: transform 0.3s ease;
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  top: 55px;
+  left: 0;
+  background-color: #484a54;
+  overflow-x: hidden;
+  padding-top: 20px;
+  color: inherit; /* Apply color to the entire sidebar */
+  z-index: 10;
+}
+.sidebar.open {
+  transform: translateX(0);
+}
+  .sidebar ul {
+   
+    list-style-type: none;
+  }
+  .sidebar ul label{
+    color: orange;
+    margin-left: 20px;
+   
+  }
+  
+  .sidebar ul li {
+    color: white;
+    margin-left: 10px;
+    text-align: left;
+    padding: 7px;
+  }
+
+  

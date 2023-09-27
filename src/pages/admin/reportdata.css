@@ -1,0 +1,15 @@
+.tablelayout {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 900px; /* Adjust the max height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@media (min-width: 769px) {
+  .table-container table {
+    width: 75%;
+  
+  }
+}

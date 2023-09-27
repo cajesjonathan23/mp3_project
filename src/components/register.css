@@ -1,0 +1,21 @@
+.pic{
+    margin-top: 50px;
+}
+.edit{
+    margin-top: 50px;
+    margin-right: 0px;
+}
+.row{
+    margin: 0 5px;
+}
+@media (max-width: 767px) {
+    .remove-br {
+      display: none;
+    }
+    .edit, .pic{
+        margin-top: 0;
+        justify-content: center;
+        margin-right: 50px;
+    }
+  }
+  

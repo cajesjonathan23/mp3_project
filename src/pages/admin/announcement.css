@@ -1,0 +1,54 @@
+/* Apply basic styles to the card */
+.card {
+    width: 100%;
+    max-width: 90%;
+   margin-left: 15%;
+   margin-top: 5%;
+    background-color: #f8f9fa;
+}
+
+/* Style the card header */
+.card-header {
+    background-color: #484a54;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Style the card body */
+.card-body {
+    padding: 20px;
+}
+
+/* Style form labels */
+.form-group label {
+    font-weight: bold;
+}
+
+/* Style text input and select elements */
+.form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+/* Style the submit button */
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the footer with small text */
+.card-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #ced4da;
+}

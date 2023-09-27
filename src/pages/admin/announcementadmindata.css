@@ -1,0 +1,41 @@
+
+.table-container {
+    overflow-x: auto;
+    overflow-y: auto;
+    max-height: 400px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media (min-width: 769px) {
+    .table-container table {
+      width: 75%;
+    }
+  }
+  
+/* Media query for screens narrower than 769px */
+@media (max-width: 768px) {
+  .table-container table {
+    width: 100%; /* Use full width on smaller screens */
+  }
+
+  /* Optionally, you can add a horizontal scrollbar for smaller screens */
+  .table-container {
+    max-height: none; 
+    overflow-x: scroll; 
+    overflow-y: auto;
+  }
+
+  .table-container table th {
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 2;
+  }
+
+
+  .table-container table td {
+    margin-top: 70px;
+    z-index: 1;
+  }
+}
